@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Focus Morons</title>
+    <link rel="stylesheet", type="text/css", href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+</head>
+
+<body marginwidth="50px">
+
+<h1>Zombie Game</h1>
+<br>
+<div>
+    <hr width="parent" color="#0000ff" size="5px">
+    <h2>Enter Password</h2><br>
+    <form method="post" class="pure-form">
+        <input type="name" placeholder="name" name="email" align="centre"/>
+        <input type="email" placeholder="email" name="username" align="centre"/>
+        <input type="password" placeholder="Password" name="password1" align="centre"/>
+       <input type="password" placeholder="Password" name="password2" align="centre"/>
+        <br><br>
+        <button type="submit" name="signin" value="signin" class="pure-button pure-button-primary"
+                onsubmit="signin">Sign in</button>
+    </form>
+    <br>
+    <hr width="parent" color="#0000ff" size="5px">
+</div>
+</body>
+</html>
